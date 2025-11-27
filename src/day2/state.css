@@ -1,0 +1,12 @@
+.toggle{
+    button{
+        margin:1rem;
+    }
+    p{
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid #222;
+        border-radius: 1rem;
+        background-color: aliceblue;
+    }
+}

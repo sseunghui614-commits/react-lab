@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import Props from "./day1/Props";
+import State from './day2/State';
+import ListWrap from './day3/ListWrap';
+import Parent from './day3/Parent';
+import Event from './day4/Event';
+const App = ()=>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      {/* <Parent /> */}
+      {/* <ListWrap /> */}
+      <Event />
     </div>
   );
-}
-
+};
 export default App;
